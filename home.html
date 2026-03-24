@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RANALYN VILLEGAS & JOEL BUENAVENTURA - Wedding Invitation</title>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="music-control">
+    <button id="musicToggle" class="music-btn">
+      <span class="music-icon">♪</span>
+    </button>
+  </div>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Nav Overlay -->
+<div class="nav-overlay" id="navOverlay">
+  <button class="nav-close" id="navClose" aria-label="Close menu">&#10005;</button>
+  <div class="nav-overlay-names">Ranalyn &amp; Joel</div>
+  <div class="nav-overlay-date">May 8, 2026</div>
+  <nav class="nav-links">
+    <a class="nav-link" data-section=".invitation">Invitation</a>
+    <a class="nav-link" data-section=".countdown-section">Countdown</a>
+    <a class="nav-link" data-section=".save-date">Save the Date</a>
+    <a class="nav-link" data-section=".venue">Venue</a>
+    <a class="nav-link" data-section=".timeline">Timeline</a>
+    <a class="nav-link" data-section=".dress-code">Dress Code</a>
+    <a class="nav-link" data-section=".gift-unplugged-section">Gift &amp; Unplugged</a>
+    <a class="nav-link" data-section=".rsvp-section">RSVP</a>
+  </nav>
+</div>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="kj.png" alt="Ranalyn and Joel" class="hero-image">
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Together with their families</p>
+    <div class="hero-ornament">
+      <span class="hero-ornament-line"></span>
+      <span class="hero-ornament-diamond">◆</span>
+      <span class="hero-ornament-line"></span>
+    </div>
+    <h1 class="couple-names">
+      <span class="name-left">Ranalyn Villegas</span>
+      <span class="name-and">&</span>
+      <span class="name-right">Joel Buenaventura</span>
+    </h1>
+    <div class="hero-ornament">
+      <span class="hero-ornament-line"></span>
+      <span class="hero-ornament-diamond">◆</span>
+      <span class="hero-ornament-line"></span>
+    </div>
+    <p class="tagline">a love perfectly made</p>
+    <p class="hero-date">May 8, 2026  ·  Limay, Bataan</p>
+    <div class="hero-scroll"><span class="hero-scroll-line"></span></div>
+  </div>
+</section>
+
+<!-- Invitation Section -->
+<section class="invitation">
+  <div class="container">
+    <div class="invitation-grid">
+      <div class="polaroid">
+        <div class="polaroid-frame">
+          <img src="joel.jfif" alt="Ranalyn and Joel" class="polaroid-img">
+        </div>
+      </div>
+      <div class="invitation-text">
+        <p class="invited-label">YOU ARE INVITED</p>
+        <h2 class="script-names">Ranalyn<br>&<br>Joel</h2>
+        <p class="married-text">ARE GETTING MARRIED!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Countdown Section -->
+<section class="countdown-section">
+  <div class="container">
+    <p class="countdown-label">DAYS BEFORE WE SAY "I DO"</p>
+    <div class="countdown">
+      <div class="countdown-item"><span class="count" id="days">000</span><span class="label">DAYS</span></div>
+      <span class="separator">:</span>
+      <div class="countdown-item"><span class="count" id="hours">00</span><span class="label">HOURS</span></div>
+      <span class="separator">:</span>
+      <div class="countdown-item"><span class="count" id="minutes">00</span><span class="label">MINUTES</span></div>
+      <span class="separator">:</span>
+      <div class="countdown-item"><span class="count" id="seconds">00</span><span class="label">SECONDS</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Save the Date Section -->
+<section class="save-date">
+  <div class="container">
+    <h3 class="section-title script">Save the Date</h3>
+    <p class="month-year">MAY 2026</p>
+    <div class="calendar-grid">
+      <div class="calendar">
+        <div class="weekdays">
+          <span>sun</span><span>mon</span><span>tue</span><span>wed</span><span>thu</span><span>fri</span><span>sat</span>
+        </div>
+        <div class="days">
+          <span class="empty"></span><span class="empty"></span><span class="empty"></span><span class="empty"></span><span class="empty"></span><span>1</span><span>2</span>
+          <span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span class="highlight">8</span><span>9</span>
+          <span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span>
+          <span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span>
+          <span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+          <span>31</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hastag">
+    <span class="hastag-symbol">#</span>mayka
+    <span class="LAY">LAY</span>
+    fetimepartnernasi
+    <span class="OWEL">OWEL</span>
+  </div>
+</section>
+
+<!-- Venue Section -->
+<section class="venue">
+  <div class="container">
+    <div class="venue-card combined-venue-card">
+      <h3 class="venue-type script">Ceremony & Reception</h3>
+      <h4 class="venue-name">VILLA SUSANA PRIVATE RESORT</h4>
+      <p class="venue-location">Limay, Bataan</p>
+      <div class="venue-carousel">
+        <button class="carousel-btn prev" aria-label="Previous">&#8249;</button>
+        <div class="carousel-track-wrapper">
+          <div class="carousel-track">
+            <div class="carousel-slide"><img src="q.jfif" alt="Villa Susana - Photo 1"></div>
+            <div class="carousel-slide"><img src="q2.jfif" alt="Villa Susana - Photo 2"></div>
+            <div class="carousel-slide"><img src="q3.jfif" alt="Villa Susana - Photo 3"></div>
+            <div class="carousel-slide"><img src="q4.jfif" alt="Villa Susana - Photo 4"></div>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+      <div class="venue-map">
+        <iframe
+          title="Villa Susana Private Resort"
+          width="100%"
+          height="280"
+          style="border:0; border-radius: 10px;"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=14.5591594,120.5865266&z=16&output=embed">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Timeline Section -->
+<section class="timeline">
+  <div class="container">
+    <h3 class="section-title script">Wedding Day</h3>
+    <p class="subtitle">TIMELINE</p>
+    <div class="timeline-grid">
+      <div class="timeline-item">
+        <div class="icon">
+          <i class="fas fa-church"></i>
+        </div>
+        <span class="time">2:00 PM</span>
+        <span class="event">Ceremony</span>
+      </div>
+      <div class="timeline-item">
+        <div class="icon">
+          <i class="fas fa-utensils"></i>
+        </div>
+        <span class="time">3:00 PM</span>
+        <span class="event">Reception & Dinner</span>
+      </div>
+      <div class="timeline-item">
+        <div class="icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+          </svg>
+        </div>
+        <span class="time">6:00 PM</span>
+        <span class="event">After Party</span>
+      </div>
+    </div>
+    <p class="timeline-message">
+      Every moment of the day is something we've been dreaming of, and
+      we're grateful that you'll be experiencing it with us
+    </p>
+  </div>
+</section>
+
+<!-- Dress Code Section -->
+<section class="dress-code">
+  <div class="container">
+    <h3 class="section-title script">Dress Code</h3>
+    <h4 class="dress-theme">CLASSIC + ELEGANT</h4>
+    <p class="dress-formality">FORMAL/SEMI-FORMAL</p>
+    <div class="palette-row">
+      <p class="palette-title">THE COLORS</p>
+      <div class="colors">
+        <div class="color" style="background:#8B4A2B;" title="Terracotta"></div>
+        <div class="color" style="background:#B5663A;" title="Sienna"></div>
+        <div class="color" style="background:#C4A96A;" title="Gold"></div>
+        <div class="color" style="background:#E8D98A;" title="Butter"></div>
+      </div>
+    </div>
+    <div class="attire-container">
+      <div class="attire-column">
+        <div class="attire-label-box">
+          <p class="attire-role">Guest</p>
+          <p class="attire-dress"></p>
+        </div>
+        <img src="male.PNG" alt="Male Attire" class="attire-illustration">
+      </div>
+      <div class="attire-divider">
+        <span></span>
+        <span class="attire-divider-diamond">◆</span>
+        <span></span>
+      </div>
+      <div class="attire-column">
+        <div class="attire-label-box">
+          <p class="attire-role">Guest</p>
+          <p class="attire-dress"></p>
+        </div>
+        <img src="female.PNG" alt="Female Attire" class="attire-illustration">
+      </div>
+    </div>
+    <p class="sponsors-note"></p>
+    <div class="guests-section">
+      <h5>GUESTS</h5>
+      <p class="guests-text">
+        WE WOULD BE DELIGHTED IF YOU WOULD JOIN US<br>
+        IN CELEBRATING BY WEARING SEMI-FORMAL ATTIRE.
+      </p>
+      <p class="guests-text">
+        WE ALSO HIGHLY ENCOURAGE YOU TO DRESS IN<br>
+        THE SHADES OF OUR COLOR PALETTE
+      </p>
+      <p class="guests-note">
+        FOR THOSE PART OF THE ENTOURAGE, THE BRIDE AND<br>
+        GROOM WILL REACH OUT TO YOU SEPARATELY
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Gift Guide & Unplugged Section -->
+<section class="gift-unplugged-section">
+  <div class="container">
+    <div class="section-rule">
+      <span></span><span class="diamond">◆</span><span></span>
+    </div>
+    <div class="gift-unplugged-block">
+      <h3 class="section-title script">Gift Guide</h3>
+      <p class="gift-unplugged-text">
+        Your love and presence are the greatest gifts we could ask for.<br>
+        But if you wish to honor us with a gift, a monetary blessing would be<br>
+        sincerely appreciated.
+      </p>
+    </div>
+    <div class="section-rule">
+      <span></span><span class="diamond">◆</span><span></span>
+    </div>
+    <div class="gift-unplugged-block">
+      <h3 class="section-title script">Unplugged</h3>
+      <p class="gift-unplugged-text">
+        Please keep our wedding ceremony camera free. We've hired professional<br>
+        photographers to capture us marry. Though our I Do's are unplugged our<br>
+        reception is not.
+      </p>
+    </div>
+    <div class="qr-wrapper">
+      <img src="1qr.png" alt="QR Code" class="qr-img">
+      <img src="2qr.png" alt="QR Code" class="qr-img">
+    </div>
+  </div>
+</section>
+
+<!-- RSVP Section -->
+<section class="rsvp-section">
+  <div class="container">
+    <div class="section-rule">
+      <span></span><span class="diamond">◆</span><span></span>
+    </div>
+    <h3 class="section-title script">RSVP</h3>
+    <p class="rsvp-label">KINDLY REPLY BY APRIL 25, 2026</p>
+    <p class="rsvp-sub">Please fill out the form below to confirm your attendance</p>
+    <div class="rsvp-form-wrapper">
+      <form class="rsvp-custom-form" id="rsvpForm">
+        <div class="form-group">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-input" name="entry.1498421053" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Will you attend?</label>
+          <div class="form-radio-group">
+            <label class="form-radio">
+              <input type="radio" name="entry.1283002011" value="Joyfully Accepts" required>
+              <span class="radio-custom"></span>
+              <span class="radio-label">Joyfully Accepts</span>
+            </label>
+            <label class="form-radio">
+              <input type="radio" name="entry.1283002011" value="Regretfully Declines">
+              <span class="radio-custom"></span>
+              <span class="radio-label">Regretfully Declines</span>
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message to the Couple <span class="form-optional">(optional)</span></label>
+          <textarea class="form-input form-textarea" name="entry.1783884720" placeholder="Share your wishes..."></textarea>
+        </div>
+        <div class="form-submit-row">
+          <button type="submit" class="form-submit-btn">
+            <span class="btn-text">Send with Love ◆</span>
+          </button>
+        </div>
+       <!-- WITH THIS -->
+<div class="form-success" id="rsvpSuccess">
+  <p class="success-eyebrow">✉ Response Received</p>
+  <p class="success-script">Thank you!</p>
+  <p class="success-sub">for taking the time to respond</p>
+  <div class="success-rule"><span></span><span>◆</span><span></span></div>
+  <p class="success-message">We look forward to celebrating this special day with you.</p>
+  <p class="success-names">— Ranalyn & Joel</p>
+</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <img src="flower.png" alt="" class="footer-flower footer-flower-left" aria-hidden="true">
+  <img src="flower.png" alt="" class="footer-flower footer-flower-right" aria-hidden="true">
+  <div class="container footer-content">
+    <p class="footer-thankyou">Thank You</p>
+    <p class="footer-message">for being part of our special day</p>
+    <div class="footer-rule">
+      <span></span><span class="footer-diamond">◆</span><span></span>
+    </div>
+    <p class="footer-names">Ranalyn &amp; Joel</p>
+    <p class="footer-date">May 8, 2026</p>
+  </div>
+</footer>
+
+<script src="home.js"></script>
+</body>
+</html>

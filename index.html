@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding Invitation</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<canvas id="matchaParticles"></canvas>
+
+<div class="flower-scene not-loaded">
+  <div class="night"></div>
+</div>
+
+<!-- Top-left flower -->
+<img
+  src="flowe.png"
+  alt=""
+  class="corner-flower corner-flower-tl"
+  aria-hidden="true"
+>
+
+<!-- Bottom-right flower (mirrored) -->
+<img
+  src="flowe.png"
+  alt=""
+  class="corner-flower corner-flower-br"
+  aria-hidden="true"
+>
+
+<!-- Decorative corner flourishes -->
+<svg class="flourish flourish--tl" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M8 152 C8 80 8 8 152 8" stroke="currentColor" stroke-width="0.8" fill="none"/>
+  <path d="M24 152 C24 90 24 24 152 24" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <ellipse cx="45" cy="75" rx="16" ry="8" fill="currentColor" transform="rotate(-38 45 75)" opacity="0.55"/>
+  <ellipse cx="28" cy="108" rx="13" ry="7" fill="currentColor" transform="rotate(-58 28 108)" opacity="0.45"/>
+  <ellipse cx="68" cy="50" rx="14" ry="7" fill="currentColor" transform="rotate(-18 68 50)" opacity="0.5"/>
+  <ellipse cx="90" cy="32" rx="12" ry="6" fill="currentColor" transform="rotate(-8 90 32)" opacity="0.4"/>
+  <circle cx="44" cy="74" r="2" fill="currentColor" opacity="0.6"/>
+  <circle cx="27" cy="107" r="1.5" fill="currentColor" opacity="0.5"/>
+</svg>
+<svg class="flourish flourish--tr" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M8 152 C8 80 8 8 152 8" stroke="currentColor" stroke-width="0.8" fill="none"/>
+  <path d="M24 152 C24 90 24 24 152 24" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <ellipse cx="45" cy="75" rx="16" ry="8" fill="currentColor" transform="rotate(-38 45 75)" opacity="0.55"/>
+  <ellipse cx="28" cy="108" rx="13" ry="7" fill="currentColor" transform="rotate(-58 28 108)" opacity="0.45"/>
+  <ellipse cx="68" cy="50" rx="14" ry="7" fill="currentColor" transform="rotate(-18 68 50)" opacity="0.5"/>
+  <ellipse cx="90" cy="32" rx="12" ry="6" fill="currentColor" transform="rotate(-8 90 32)" opacity="0.4"/>
+</svg>
+<svg class="flourish flourish--bl" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M8 152 C8 80 8 8 152 8" stroke="currentColor" stroke-width="0.8" fill="none"/>
+  <path d="M24 152 C24 90 24 24 152 24" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <ellipse cx="45" cy="75" rx="16" ry="8" fill="currentColor" transform="rotate(-38 45 75)" opacity="0.55"/>
+  <ellipse cx="28" cy="108" rx="13" ry="7" fill="currentColor" transform="rotate(-58 28 108)" opacity="0.45"/>
+</svg>
+<svg class="flourish flourish--br" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M8 152 C8 80 8 8 152 8" stroke="currentColor" stroke-width="0.8" fill="none"/>
+  <path d="M24 152 C24 90 24 24 152 24" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <ellipse cx="45" cy="75" rx="16" ry="8" fill="currentColor" transform="rotate(-38 45 75)" opacity="0.55"/>
+  <ellipse cx="28" cy="108" rx="13" ry="7" fill="currentColor" transform="rotate(-58 28 108)" opacity="0.45"/>
+</svg>
+
+<!-- Top header block -->
+<div class="invite-header">
+  <span class="invite-eyebrow">— a celebration of love —</span>
+  <p class="invite-text-top">You're Invited</p>
+  <div class="divider">
+    <span class="divider-line"></span>
+    <span class="divider-diamond">◆</span>
+    <span class="divider-line"></span>
+  </div>
+</div>
+
+<!-- Envelope -->
+<div class="wrapper">
+  <a href="home.html" class="envelope-link" aria-label="Open wedding invitation details">
+    <img src="benv.png" class="envelope-img" alt="Wedding envelope">
+    <img src="wax-seal.png" class="wax-seal" alt="Wax seal">
+  </a>
+
+  <p class="invite-text-bottom">
+    <span class="tap-icon" aria-hidden="true">✦</span>
+    Tap to Open
+    <span class="tap-icon" aria-hidden="true">✦</span>
+  </p>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
